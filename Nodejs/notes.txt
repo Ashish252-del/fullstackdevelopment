@@ -1,0 +1,105 @@
+// Node.js is a javaScript running on server
+Node js is used for server writting
+Every broweser has an engine for running the code like google has v8 engine 
+to run the javaScript on the browser
+Nodejs is  c++ program embedded with v8 engine
+Nodejs is actually a run time environment
+
+// When to use Nodejs
+1 I/O bound
+2 Data streaming applications(Netflix like fb on scrolling down it never end)
+3 Real time chat applications
+Nodejs can take multiple request if a task is taking time it will perform another request
+at the same time and then that work too
+
+// Install
+visit on Nodejs.org and download from there
+for checking open cmd and write commond: node -v
+v12.18.3 will be output if it is installed
+nmp will also Install with Nodejs
+to check in cmd write: npm-v
+
+// Nodejs Repel
+It is very usesful in experimenting with node.js codes 
+and to debug javaScript codes
+it is like cmd of javaScript
+to go in Repel just write in terminal node and press enter 
+
+Read- Read user's input , parse the input into JavaScript data-structure,
+and stores in memory
+Eval- Takes and evaluates the data structure
+Print- Print the result
+Loop - Loops the above command until the user presses ctrl-c twice
+
+// To go in Repel
+just write node and press enter in terminal
+now take reference from .help
+to create a file // type null > index.js
+type null > index.js
+to exit write .exit
+_ give the last result of repel
+
+PS E:\self-practice\Nodejs> type null index.js
+Get-Content : A positional parameter cannot be found that accepts argument 'index.js'.
+At line:1 char:1
++ type null index.js
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Content], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+PS E:\self-practice\Nodejs> type null > index.js
+type : Cannot find path 'E:\self-practice\Nodejs\null' because it does not exist.
+At line:1 char:1
++ type null > index.js
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (E:\self-practice\Nodejs\null:String) [Get-Content], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS E:\self-practice\Nodejs> node
+Welcome to Node.js v16.13.2.
+Type ".help" for more information.
+> 5+5
+10
+> 12/2
+6
+> var a = 10; var b = 5;
+undefined
+> a+b
+15
+> console.log("as")
+as
+undefined
+> console.log(`my name ${5}`)
+my name 5
+undefined
+> _+5
+NaN
+>
+
+
+// to use terminal as editor mode like vs code 
+node + press enter // now you are in repel
+.editor 
+// Entering editor mode (Ctrl+D to finish, Ctrl+C to cancel)
+above msg will display
+press ctrl+D to finish nd run the code
+
+PS E:\self-practice\Nodejs> node
+Welcome to Node.js v16.13.2.
+Type ".help" for more information.
+> .editor
+// Entering editor mode (Ctrl+D to finish, Ctrl+C to cancel)
+var a = ()=>{console.log("ashish")};
+a();
+
+ashish
+undefined
+>
+
+
+// Notes:
+press double tab to see all the properties nd method of nodejs
+to check all the methods of repel 
+write fs press enter 
+
+

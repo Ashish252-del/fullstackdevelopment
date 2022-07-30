@@ -1,0 +1,18 @@
+// some important cmd commands
+1 D: to go in D drive
+D:
+2 cd fiile name // to go inside the file
+cd Ashish
+3 cd\ to go out side from all file in drive nd reached at drive
+cd\ Ashish
+4 dir to see the total file inside the current directory
+dir
+5 cd.. to go outside of a particular file
+cd.. Ashish
+6 md file name // to create a file
+md Patel
+7 tree directory name // to see in tree format 
+for ex- tree Ashish
+to see drive in tree - tree D:
+9 To open any folder directly in cmd just go in that folder nd select the path there nd write cmd press enter
+
