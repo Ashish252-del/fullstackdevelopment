@@ -16,3 +16,5 @@ for ex- tree Ashish
 to see drive in tree - tree D:
 9 To open any folder directly in cmd just go in that folder nd select the path there nd write cmd press enter
 
+Some basic path convention of window
+./ show the curren directory

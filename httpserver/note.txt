@@ -1,0 +1,40 @@
+// To access web pages of any web application , you need a web server . The
+web server will handle all the http requests for the web application
+for ex IIS is a web server ASP.NET web application and Apache is a web server for PHP or java
+web application
+
+Nodejs provides capabilities to create your own web server which will handle
+HTTP requests asynchronously. 
+
+
+// our json this file will work as api 
+// where all the data is written
+// suppose u are working in a company nd your all data is written here
+
+// JSON is easy, but it does have a few rules. Most of the time, your JSON file structure violates one of these :
+
+// Array elements should be separated by a comma.
+// Everything must be wrapped in one single root object, which can be an Object {} or an Array {}. Multiple root object is not allowed.
+// Special characters must be escaped. Pay attention closely to double quotes and Unicode double quotes. Here’s a list of special, reserved characters in JSON :
+// Backspace should be escaped with b.
+// Form feed should be escaped with f.
+// Newline should be escaped with n.
+// Carriage return should be escaped with r.
+// Tab should be escaped with t.
+// Double quote should be escaped with "
+// Backslash should be escaped with
+
+
+// here student is a root and we have write everything inside it
+{ "student": [
+    {
+    "name":"Ashish",
+    "college":"MMMUT"
+}
+,
+
+{
+    "name": "Pradyumn",
+    "college": "BHU"}
+]
+}
